@@ -5,9 +5,9 @@ For CSE-8803 : Data Science for Epidemiology by Dr. B. Aditya Prakash, Fall 2021
 Steps for runnning the notebooks - 
 
 Create a Conda Environment:
->> conda env create --name "dogeepi" 
->> conda install pandas
->> conda install numpy
+>> conda env create --name "dogeepi" <br>
+>> conda install pandas <br>
+>> conda install numpy <br>
 >> pip install hmmlearn
 >> pip install twint
 >> conda install scikit-learn
