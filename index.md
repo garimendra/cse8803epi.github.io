@@ -41,6 +41,7 @@ First, we tried to predict doge coin price bubbles using epidemic modelling, lat
 
 ## Results
 
+![Flowchart](images/HMM.jpeg)
 
 ![Flowchart](images/Unknown-7.png)
 
