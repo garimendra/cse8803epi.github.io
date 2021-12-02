@@ -9,7 +9,7 @@ For CSE-8803 : Data Science for Epidemiology by Dr. B. Aditya Prakash, Fall 2021
 
 ## Motivation 
 
-Previously, researchers used only social media data as an indicator to predict cryptocurrency prices, but the results proved insufficient to make the profits. The reason behind this is the volatility and price bubbles of the crypto market. There has also been some research on how cryptocurrency price bubbles have previously been linked with the epidemic-like spread of an investment idea. The idea is similar to how epidemic diseases spread when infected by a virus; a cryptocurrency market may boom or burst when infected with an investment idea. In predicting such epidemic diseases, especially influenza monitoring, researchers utilized Hidden Markov Model to detect the pandemic in an early stage. 
+Previously, researchers used only social media data as an indicator to predict cryptocurrency prices<sup>1</sup>, but the results proved insufficient to make the profits. The reason behind this is the volatility and price bubbles of the crypto market. There has also been some research on how cryptocurrency price bubbles have previously been linked with the epidemic-like spread of an investment idea. The idea is similar to how epidemic diseases spread when infected by a virus; a cryptocurrency market may boom or burst when infected with an investment idea. In predicting such epidemic diseases, especially influenza monitoring, researchers utilized Hidden Markov Model to detect the pandemic in an early stage. 
 
 
 The intuition behind this project is to study the application of previous works from epidemiology on different domains other than Epidemiology. This project aims to extend the idea of the hidden Markov model's usage in the early detection of Influenza disease to the cryptocurrency market. We chose the cryptocurrency market because there is a direct correlation as to how the price of a crypto market booms/bursts similar to an epidemic disease. The novelty of our idea is we want to show how previous research work of unique mathematical models in Epidemiology can easily extend to different domains. We also wish this project gives enough motivation to utilize the previous work done in epidemiology in various fields other than Epidemiology. A detailed approach and further practical details about the project are discussed in the next section. 
@@ -49,4 +49,8 @@ As seen from the above image when an influenza time series data is trained on Hi
 
 ![Flowchart](images/DogeVsTwitter.png)
 
+
+## References 
+1. Georgoula, Ifigeneia; Pournarakis, Demitrios; Bilanakos, Christos; Sotiropoulos, Dionisios N.; and Giaglis, George M., "Using Time-Series and Sentiment Analysis to Detect the Determinants of Bitcoin Prices" (2015). MCIS 2015 Proceedings. 20.
+https://aisel.aisnet.org/mcis2015/20
 
