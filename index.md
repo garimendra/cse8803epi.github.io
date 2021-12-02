@@ -22,7 +22,7 @@ The crypto market is prone to sudden changes due to new investment ideas in the 
 4. Profit 
 5. Panic. 
 
-To efficiently predict the doge coin bubbles, we need a model that detects boom, euphoria and panic phases in the market as early as possible. To achieve this we are extending the work of \cite{bayesian} in early detection of influenza pandemic to doge coin. We are using an HMM model that is previously been used on influenza data to successfully detect early stages of doge coin market.
+To efficiently predict the doge coin bubbles, we need a model that detects boom, euphoria and panic phases in the market as early as possible. To achieve this we are extending the work of M. A. Martínez-Beneit in "Bayesian Markov switching models for the early detection of influenza epidemics" for early detection of influenza pandemic to doge coin. We are using an HMM model that is previously been used on influenza data to successfully detect early stages of doge coin market.
 
 ![Flowchart](images/tweepy.png)
 
