@@ -26,11 +26,13 @@ The crypto market is prone to sudden changes due to new investment ideas in the 
 To efficiently predict the doge coin bubbles, we need a model that detects boom, euphoria and panic phases in the market as early as possible. To achieve this we are extending the work of M. A. Martínez-Beneit<sup>3</sup> for early detection of influenza pandemic to doge coin. We are using an HMM model that is previously been used on influenza data to successfully detect early stages of doge coin market.
 
 ![Flowchart](images/tweepy.png)
+<center>Fig 1: Experiment Flowchart</center>
 
 
 As seen from the above image when an influenza time series data is trained on Hidden Markov model, the algorithm can successfully detect hidden states in between low-epidemic and high-epidemic states. Researchers used those hidden states to detect the disease even before happening. This similar approach of early detection of influenza is used in this project to detect early rise in the price of doge coin. First, we tried to predict doge coin price bubbles using epidemic modelling, later we are tried to find the effect of influenza and covid data on the price of doge coin. 
 
 ![Flowchart](images/Unknown-4.png)
+<center>Fig 2: Influenza data when trained on HMM</center>
 
 
 ## Relevant Links 
@@ -44,10 +46,14 @@ As seen from the above image when an influenza time series data is trained on Hi
 ## Results
 
 ![Flowchart](images/HMM.jpeg)
+<center>Fig 3: Study of HMM on influenza and covid data</center>
 
 ![Flowchart](images/Unknown-7.png)
+<center>Fig 4: Study of HMM on Social Media Sentiment</center>
+
 
 ![Flowchart](images/DogeVsTwitter.png)
+<center>Fig 5: Twitter Sentiment vs Doge Coin</center>
 
 
 ## References 
