@@ -1,5 +1,7 @@
 ## Predicting DogeCoin Price Bubbles using Epidemic Modeling
 
+For CSE-8803 : Data Science for Epidemiology by Dr. B. Aditya Prakash, Fall 2021
+
 ## Meet the Authors
 
 ![Authors](images/Gary-and-Surya.jpeg)
