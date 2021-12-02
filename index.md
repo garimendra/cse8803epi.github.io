@@ -9,13 +9,12 @@ For CSE-8803 : Data Science for Epidemiology by Dr. B. Aditya Prakash, Fall 2021
 
 ## Motivation 
 
-Previously, researchers used only social media data as an indicator to predict cryptocurrency prices<sup>1</sup>, but the results proved insufficient to make the profits. The reason behind this is the volatility and price bubbles of the crypto market. There has also been some research on how cryptocurrency price bubbles have previously been linked with the epidemic-like spread of an investment idea. The idea is similar to how epidemic diseases spread when infected by a virus; a cryptocurrency market may boom or burst when infected with an investment idea. In predicting such epidemic diseases, especially influenza monitoring, researchers utilized Hidden Markov Model to detect the pandemic in an early stage. 
+Previously, researchers used only social media data as an indicator to predict cryptocurrency prices<sup>1</sup>, but the results proved insufficient to make the profits. The reason behind this is the volatility and price bubbles of the crypto market. There has also been some research on how cryptocurrency price bubbles have previously been linked with the epidemic-like spread of an investment idea.<sup>2</sup> The idea is similar to how epidemic diseases spread when infected by a virus; a cryptocurrency market may boom or burst when infected with an investment idea. In predicting such epidemic diseases, especially influenza monitoring, researchers utilized Hidden Markov Model to detect the pandemic in an early stage<sup>3</sup>. 
 
 
 The intuition behind this project is to study the application of previous works from epidemiology on different domains other than Epidemiology. This project aims to extend the idea of the hidden Markov model's usage in the early detection of Influenza disease to the cryptocurrency market. We chose the cryptocurrency market because there is a direct correlation as to how the price of a crypto market booms/bursts similar to an epidemic disease. The novelty of our idea is we want to show how previous research work of unique mathematical models in Epidemiology can easily extend to different domains. We also wish this project gives enough motivation to utilize the previous work done in epidemiology in various fields other than Epidemiology. A detailed approach and further practical details about the project are discussed in the next section. 
 
 ## Approach 
-
 
 The crypto market is prone to sudden changes due to new investment ideas in the market. In order to best study this behaviour we attempted to predict doge coin price bubbles. As explained in the previous sections, crypto price bubble comprises of five phases in the following order: 
 1. Displacement 
@@ -24,7 +23,7 @@ The crypto market is prone to sudden changes due to new investment ideas in the 
 4. Profit 
 5. Panic. 
 
-To efficiently predict the doge coin bubbles, we need a model that detects boom, euphoria and panic phases in the market as early as possible. To achieve this we are extending the work of M. A. Martínez-Beneit in "Bayesian Markov switching models for the early detection of influenza epidemics" for early detection of influenza pandemic to doge coin. We are using an HMM model that is previously been used on influenza data to successfully detect early stages of doge coin market.
+To efficiently predict the doge coin bubbles, we need a model that detects boom, euphoria and panic phases in the market as early as possible. To achieve this we are extending the work of M. A. Martínez-Beneit<sup>3</sup> for early detection of influenza pandemic to doge coin. We are using an HMM model that is previously been used on influenza data to successfully detect early stages of doge coin market.
 
 ![Flowchart](images/tweepy.png)
 
@@ -35,6 +34,7 @@ As seen from the above image when an influenza time series data is trained on Hi
 
 
 ## Relevant Links 
+
 - Final Report 
 - Final Presentation
 - [Software Files](https://drive.google.com/file/d/1oEyzDL44sp8EAOPQ17Of0syf-rd2zqGf/view?usp=sharing)
@@ -51,6 +51,12 @@ As seen from the above image when an influenza time series data is trained on Hi
 
 
 ## References 
+
 1. Georgoula, Ifigeneia; Pournarakis, Demitrios; Bilanakos, Christos; Sotiropoulos, Dionisios N.; and Giaglis, George M., "Using Time-Series and Sentiment Analysis to Detect the Determinants of Bitcoin Prices" (2015). MCIS 2015 Proceedings. 20.
-https://aisel.aisnet.org/mcis2015/20
+[Link](https://aisel.aisnet.org/mcis2015/20)
+2. Shtatland, Ernest & Shtatland, Ma. (2008). Another Look at Low-Order Autoregressive Models in Early Detection of Epidemic Outbreaks and Explosive Behaviors in Economic and Financial Time Series. 363-2008. 
+[Link](https://www.researchgate.net/publication/228984995_Another_Look_at_Low-Order_Autoregressive_Models_in_Early_Detection_of_Epidemic_Outbreaks_and_Explosive_Behaviors_in_Economic_and_Financial_Time_Series)
+3. Martínez-Beneito MA, Conesa D, López-Quílez A, López-Maside A. Bayesian Markov switching models for the early detection of influenza epidemics. Stat Med. 2008 Sep 30;27(22):4455-68. doi: 10.1002/sim.3320. PMID: 18618414.
+[Link](https://www.uv.es/mamtnez/Influenza.pdf)
+
 
