@@ -39,8 +39,8 @@ Fig 2: Influenza data when trained on HMM
 
 ## Relevant Links 
 
-- Final Report 
-- Final Presentation
+- [Final Report](https://drive.google.com/file/d/1MhoiAz3_2MDQOiOYE7UcwHhRJxTtzRvH/view?usp=sharing)
+- [Final Presentation](https://docs.google.com/presentation/d/172LJuSk4TGHHWHNsvrASvtxJdTLWjGKK/edit?usp=sharing&rtpof=true&sd=true)
 - [Software Files](https://drive.google.com/file/d/1oEyzDL44sp8EAOPQ17Of0syf-rd2zqGf/view?usp=sharing)
 
 
