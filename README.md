@@ -8,11 +8,11 @@ Create a Conda Environment:
 >> conda env create --name "dogeepi" <br>
 >> conda install pandas <br>
 >> conda install numpy <br>
->> pip install hmmlearn
->> pip install twint
->> conda install scikit-learn
->> conda install jupyter
->> conda install matplotlib
+>> pip install hmmlearn<br>
+>> pip install twint<br>
+>> conda install scikit-learn<br>
+>> conda install jupyter<br>
+>> conda install matplotlib<br>
 
 After that type the command: jupyter notebook 
 
