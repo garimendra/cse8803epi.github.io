@@ -37,7 +37,7 @@ As seen from the above image when an influenza time series data is trained on Hi
 ## Relevant Links 
 - Final Report 
 - Final Presentation
-- Software Files -
+- [Software Files] (https://github.com/garimendra/cse8803epi.github.io.git)
 
 
 
